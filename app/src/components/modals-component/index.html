@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body style="position: fixed;">
+
+    <div class="modal fade" id="modalInsertInCatalog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title"> Inserir Nova Espécie </h2>
+                    <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="m-2">
+                        <fieldset class="formGroup">
+                            <label for="popularName" class="formLabel"> nome popular da flor: </label>
+                            <input type="text" id="popularName" class="formControl">
+                        </fieldset>
+
+                        <fieldset class="formGroup">
+                            <label for="YearCatalog" class="formLabel"> ano de descoberta: </label>
+                            <input type="date" id="YearCatalog" class="formControl">
+                        </fieldset>
+
+                        <fieldset class="formGroup">
+                            <label for="scientificName" class="formLabel"> nome cientifíco: </label>
+                            <input type="text" id="scientificName" class="formControl">
+                        </fieldset>
+
+                        <fieldset class="formGroup">
+                            <label for="description" class="formLabel"> descrição: </label>
+                            <textarea id="description" class="formAreaControl"></textarea>
+                        </fieldset>
+                        <fieldset class="formGroup my-3 d-flex">
+                            <button type="button" class="btn btn-primary ms-auto px-4" id="saveNewCatalog" data-bs-dismiss="modal"> salvar
+                            </button>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js" defer type="module"></script>
+</body>
+
+
+</html>

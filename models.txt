@@ -1,0 +1,12 @@
+modelo de cadastro de flores
+
+
+
+
+CatalogedFlower
+    yearOfCataloged;
+    popularName;
+    scientificName;
+    description;
+    geneticModifications?;
+    isActive?;

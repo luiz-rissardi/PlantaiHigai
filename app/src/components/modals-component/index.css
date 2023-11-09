@@ -1,0 +1,10 @@
+
+
+
+.toast{
+    background-color: red;
+    width: 300px;
+    height: 100px;
+    opacity: 10;
+    z-index: 40;
+}
